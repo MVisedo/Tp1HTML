@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+
+    <style>
+        th,td,table {
+            border: 1px solid black;
+        }
+        header,footer{
+            background-color: bisque;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="inicio">
+        <h2>Trabajo practico HTML<br>Visedo Matias 3k10</h2>
+    </header>
+    <main>
+    <section>
+        <h1>1. Estructura Básica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</p>
+    </section>
+    <section>
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        
+            <h1>Esto es un h1</h1>
+            <h2>Esto es un h2</h2>
+            <h3>Esto es un h3</h3>
+            <h4>Esto es un h4</h4>
+            <h5>Esto es un h5</h5>
+            <h6>Esto es un h6</h6>
+        
+        <article>
+            <p>Esto es un <b>parrafo</b> que <u>combina</u> distintos <em>estilos</em></p>
+        </article>
+        
+
+
+    </section>
+    <section>
+        <h1>3. Divisiones y Agrupación de Contenido</h1>
+        <div>
+            <h3>Sección 1</h3>
+            <div>
+            <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+        </div>
+        <div>
+            <h3>Sección 2</h3>
+            <div>
+            <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>4. Enlaces y Listas</h1>
+        <article>
+            <a href="https://lapalabradeldia.com/" target="_blank">Pagina recomendada</a>
+
+            <ul>
+                <li><a href="#inicio">Ir a inicio</a></li>
+                <li><a href="#final">Ir al final</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Lista desordenada:</h3>
+            <ul>
+                <li>Primer item de la lista desordenada</li>
+                <li>Segundo item de la lista desordenada</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Primer item de la lista ordenada</li>
+                <li>Segundo item de la lista ordenada</li>
+            </ol>
+        </article>
+    </section>
+    <section>
+        <h1>5. Elementos Multimedia</h1>
+        <nav>
+            <article>
+                <h2>Audio de prueba</h2>
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+                controls>
+            </article>
+
+            <article>
+                <h2>Imagen de prueba</h2>
+                <img src="https://as01.epimg.net/epik/imagenes/2017/03/01/portada/1488364857_544034_1488365547_noticia_normal_recorte1.jpg"
+                width="350px" height="200px" alt="Es una imagen" /> 
+            </article>
+        
+            <article>
+                <h2>Video de prueba</h2>
+                <video src="ejemplo1_Aqh7FTZ7.compressed.mp4"
+                controls width="400px" height="200px"> 
+            </article> 
+        </nav>
+
+    </section>
+    <section>
+        <h1>6. Tablas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nicolas</td>
+                    <td>Lucero</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Miguel</td>
+                    <td>Dominguez</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Castillo</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h1>7. Formularios</h1>
+
+        <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" placeholder="ejemplo@gmail.com">
+            </div>
+            <div>
+                <label>Mensaje:</label>
+                <textarea></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <footer id="final"><p>Footer de la pagina</p></footer>
+</body>
+</html>
