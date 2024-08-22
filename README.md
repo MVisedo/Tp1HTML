@@ -13,6 +13,4 @@ En este proyecto:
 - **Estructura HTML:** Implementación de diversos elementos HTML para crear una página web estructurada.
 - **Atributos y Etiquetas:** Uso de múltiples etiquetas y atributos para demostrar la versatilidad de HTML.
 
-## 📑 Consignas
 
-Las actividades del TP1 se encuentran en el directorio `files` de este repositorio.
